@@ -18,7 +18,7 @@ body {
   color: #333;
 }
 h2 {
-  color: #0033a0;
+  color: #335caf;
   text-decoration: underline;
   text-decoration-color: #000000;
   margin-bottom: 8px;
@@ -54,14 +54,15 @@ main {
 
 body {
   background: #65919c;
-  background: linear-gradient(135deg, orange, pink);
+  background: linear-gradient(135deg, orange, rgb(168, 66, 180));
 }
 
-.About-me {  font-family: "Honk", system-ui;
+.abtme {  font-family: "Honk", system-ui;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings:
     "MORF" 37,
     "SHLN" 23.7;
+    border-bottom: solid black 10px;
   }
