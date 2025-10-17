@@ -47,8 +47,14 @@ main {
 }
 
 main {
-  background: #8c8e8e;
+  background: #282929;
   border:black solid 4px;
+   font-family: "Kalnia Glaze", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
   
 }
 

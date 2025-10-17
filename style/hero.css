@@ -21,7 +21,7 @@
   transition: background 0.5s;
 }
 .hero.active {
-  background: #c6093b;
+  background: #b0b0b0;
 }
 .hero.active a {
   color: white;
