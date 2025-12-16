@@ -223,3 +223,69 @@ in response to the prompt "Make tiny fire flies around the entire html, spread a
   z-index: 9999;
   transition: opacity 0.2s ease; /* smooth transition */
 }
+
+/* This code was generated with help from Github Copilot
+in response to the prompt "With the code where the moon turns into the S.png, make it so that all of the original box shadows in the html turn red. All Of Them" - 12/16/25 */
+.red-shadows .hero a:hover {
+  box-shadow: 0 0 20px 5px red;
+}
+
+.red-shadows .about-me:hover {
+  box-shadow: 0 0 20px 5px red;
+}
+
+.red-shadows .project-1:hover {
+  box-shadow: 0 0 20px 5px red;
+}
+
+.red-shadows .project-2:hover {
+  box-shadow: 0 0 20px 5px red;
+}
+
+.red-shadows .project-3:hover {
+  box-shadow: 0 0 20px 5px red;
+}
+
+.red-shadows .project-4:hover {
+  box-shadow: 0 0 20px 5px red;
+}
+
+.red-shadows .Crest-Moon {
+  box-shadow: 0 0 20px 5px red;
+}
+
+/* This code was generated with help from Github Copilot
+in response to the prompt "make the fireflies also have a red box shadow" - 12/16/25 */
+.red-shadows .firefly {
+  box-shadow: 0 0 20px 5px red;
+}
+
+/* This code was generated with help from Github Copilot
+in response to the prompt "Now finally, make the text also turn red." - 12/16/25 */
+.red-shadows .Titlefor {
+  color: red;
+}
+
+.red-shadows .hero a:hover {
+  color: red;
+}
+
+.red-shadows .about-me:hover {
+  color: red;
+}
+
+.red-shadows .project-1:hover {
+  color: red;
+}
+
+.red-shadows .project-2:hover {
+  color: red;
+}
+
+.red-shadows .project-3:hover {
+  color: red;
+}
+
+.red-shadows .project-4:hover {
+  color: red;
+}

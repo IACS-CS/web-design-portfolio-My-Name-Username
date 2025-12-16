@@ -30,13 +30,8 @@ if (moon) {
       timeoutId = setTimeout(() => {
         moon.style.backgroundImage = "url('../S.png')"; // Change image after 10 seconds
         hasChanged = true;
-        // Change all box-shadows to red
-        document.querySelectorAll('*').forEach(el => {
-          const shadow = getComputedStyle(el).boxShadow;
-          if (shadow && shadow !== 'none') {
-            el.style.boxShadow = shadow.replace(/rgba?\([^)]+\)/g, 'red').replace(/#[0-9a-fA-F]{3,6}/g, 'red').replace(/hsl\([^)]+\)/g, 'red');
-          }
-        });
+        // Add class to turn all box-shadows red
+        document.body.classList.add('red-shadows');
       }, 10000);
     }
   });
