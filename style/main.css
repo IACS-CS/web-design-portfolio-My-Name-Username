@@ -4,6 +4,8 @@
   border-radius: 15px;
   width: 370px;
   font-size: 50px;
+  margin-top: 0px;
+  background-image: url('../wood.png');
 }
 
 
@@ -19,28 +21,143 @@
 }
 
 
-html{
-  background-color: black;
-  color: white;
+
+
+.hero A{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 40px;
+  border-radius: 15px;
+  width: 200px;
+  background-image: url('../wood.png');
+}
+
+.hero a:hover {
+  color: rgb(238, 255, 0);
+  transition: 2s;
+  box-shadow: 0 0 20px 5px rgb(238, 255, 0);
+}
+
+
+
+.project-1 {
+  color: rgb(0, 0, 0);
+  background-image: url('../wood.png');
+  border-radius: 15px;
+  width: 500px;
+  font-size: 20px;
+  width: 500px;
+  margin-top: 0px;
+}
+
+
+.about-me {
+  color: rgb(0, 0, 0);
+  background-image: url('../wood.png');
+  border-radius: 15px;
+  width: 500px;
+  font-size: 20px;
+  width: 500px;
+  margin-top: 0px;
+}
+
+
+.about-me:hover {
+  color: rgb(255, 213, 0);
+  transition: 2s;
+  box-shadow: 0 0 20px 5px rgb(255, 213, 0);
+}
+
+
+.project-1:hover {
+  color: rgb(255, 213, 0);
+  transition: 2s;
+  box-shadow: 0 0 20px 5px rgb(255, 213, 0);
+}
+
+
+
+.project-2 {
+  color: rgb(0, 0, 0);
+  background-image: url('../wood.png');
+  border-radius: 15px;
+  width: 500px;
+  font-size: 20px;
+  width: 500px;
+  margin-top: 0px;
+}
+
+.project-2:hover {
+  color: rgb(255, 213, 0);
+  transition: 2s;
+  box-shadow: 0 0 20px 5px rgb(255, 213, 0);
+}
+
+
+
+.project-3 {
+  color: rgb(0, 0, 0);
+  background-image: url('../wood.png');
+  border-radius: 15px;
+  width: 500px;
+  font-size: 20px;
+  width: 500px;
+  margin-top: 0px;
+}
+
+.project-3:hover {
+  color: rgb(255, 213, 0);
+  transition: 2s;
+  box-shadow: 0 0 20px 5px rgb(255, 213, 0);
+}
+
+.project-4 {
+  color: rgb(0, 0, 0);
+  background-image: url('../wood.png');
+  border-radius: 15px;
+  width: 500px;
+  font-size: 20px;
+  width: 500px;
+  margin-top: 0px;
+}
+
+.project-4:hover {
+  color: rgb(255, 213, 0);
+  transition: 2s;
+  box-shadow: 0 0 20px 5px rgb(255, 213, 0);
+}
+
+body{
+  background-image: url('../Camp.png');
+  background-size: 100% 300%;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 
 
 
 .Crest-Moon{
-width: 300px;
-height: 300px;
+width: 150px;
+height: 150px;
 border-radius: 50%;
 background: black;
 background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/960px-FullMoon2010.jpg');
-background-size: cover;
-position: absolute;
+background-size: 150% 150%;
+background-position: center;
+position: fixed;
 top: 10px;
-right: 10px;
-animation: spin 2s linear infinite;
+right: 300px;
+box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5);
 }
 
 
+
+.Crest-Moon:hover {
+  animation: spin 1s linear infinite;
+}
 /* Animation for moon spinning */
 /* This code was generated with help from Github Copilot
 in response to the prompt "Make Crest-Moon spin around continuously" - 12/16/25 */
@@ -53,3 +170,57 @@ in response to the prompt "Make Crest-Moon spin around continuously" - 12/16/25 
   }
 }
 /* Animation for moon spinning */
+
+/* Firefly styles */
+.firefly {
+  position: fixed;
+  width: 5px;
+  height: 5px;
+  background-color: yellow;
+  border-radius: 50%;
+  animation: blink 2s infinite;
+  z-index: -1;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  25% {
+    opacity: 0.7;
+    transform: translate(5px, -5px);
+  }
+  50% {
+    opacity: 0;
+    transform: translate(10px, -10px);
+  }
+  75% {
+    opacity: 0.7;
+    transform: translate(5px, -5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+/* This code was generated with help from Github Copilot
+in response to the prompt "make them move as the go away" - 12/16/25 */
+
+/* This code was generated with help from Github Copilot
+in response to the prompt "Make tiny fire flies around the entire html, spread apart, not in the way of text, to blink to a yellow color" - 12/16/25 */
+
+/* Flash overlay for About Me link */
+#flash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 9999;
+  transition: opacity 0.2s ease; /* smooth transition */
+}
