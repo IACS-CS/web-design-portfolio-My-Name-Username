@@ -1,74 +1,55 @@
-/* There's some sample CSS here which you can use or nuke as you like */
-
-html {
-  /* Make #id links scroll smoothly */
-  scroll-behavior: smooth;
+.Titlefor{
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(rgb(113, 111, 111), rgb(35, 187, 214)); 
+  border-radius: 15px;
+  width: 370px;
+  font-size: 50px;
 }
 
-body {
-  /* Change to  something you like, but please do customize the font! */
-  font-family: Roboto, "Helvetica Neue", sans-serif;
-  line-height: 1.4;
-  /* reset default margins */
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  /* Customize colors! */
-  background: #f0f0f0;
-  color: #333;
-}
-h2 {
-  color: #335caf;
-  text-decoration: underline;
-  text-decoration-color: #000000;
-  margin-bottom: 8px;
-}
-p {
-  margin-top: 0;
+
+
+
+.hero{
+  display: flex;
+  justify-content: left;
+  align-items: top;
+  flex-direction: column;
+  align-items: left;
+  height: 100vh;
 }
 
-main {
-  /* Make sure our content can scroll the hero away */
-  min-height: 100dvh;
-  max-width: 35em; /* choose a width for text */
-  line-height: 1.8; /* choose a line spacing */
-  font-size: 18px; /* choose a font size */
-  margin: 0 auto; /* center the content */
+
+html{
+  background-color: black;
+  color: white;
 }
 
-.Titlefor {
-  font-family: "Honk", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "MORF" 15,
-    "SHLN" 50;
+
+
+
+.Crest-Moon{
+width: 300px;
+height: 300px;
+border-radius: 50%;
+background: black;
+background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/960px-FullMoon2010.jpg');
+background-size: cover;
+position: absolute;
+top: 10px;
+right: 10px;
+animation: spin 2s linear infinite;
 }
 
-main {
-  background: #282929;
-  border:black solid 4px;
-   font-family: "Kalnia Glaze", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-  
-}
 
-body {
-  background: #65919c;
-  background: linear-gradient(135deg, orange, rgb(168, 66, 180));
-}
-
-.abtme {  font-family: "Honk", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "MORF" 37,
-    "SHLN" 23.7;
-    border-bottom: solid black 10px;
+/* Animation for moon spinning */
+/* This code was generated with help from Github Copilot
+in response to the prompt "Make Crest-Moon spin around continuously" - 12/16/25 */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
   }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Animation for moon spinning */
