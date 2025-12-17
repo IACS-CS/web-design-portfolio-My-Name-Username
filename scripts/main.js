@@ -28,7 +28,7 @@ if (moon) {
     }
     if (!hasChanged) {
       timeoutId = setTimeout(() => {
-        moon.style.backgroundImage = "url('../S.png')"; // Change image after 10 seconds
+        moon.style.backgroundImage = "url('../Blood.png')"; // Change image after 10 seconds
         hasChanged = true;
         // Add class to turn all box-shadows red
         document.body.classList.add('red-shadows');
