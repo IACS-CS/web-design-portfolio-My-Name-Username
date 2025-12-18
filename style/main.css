@@ -1,31 +1,46 @@
+/* This code was generated with help from Github Copilot
+in response to the prompt "Make all of the Wood png images, have padding to make the text go inside it." - 12/18/25 */
+
 .Titlefor {
-  color: rgb(0, 0, 0);
-  background-image: linear-gradient(rgb(113, 111, 111), rgb(35, 187, 214));
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../wood.png");
   border-radius: 15px;
   width: 370px;
   font-size: 50px;
   margin-top: 0px;
-  background-image: url("../wood.png");
+  padding: 20px;
 }
 
-
-
+.project {
+}
 
 .Titlefor:hover {
-  color: rgb(221, 255, 0);
+  color: #fdd575;
   transition: 2s;
-  box-shadow: 0 0 20px 5px rgb(221, 255, 0);
+  box-shadow: 0 0 20px 5px rgba(255, 173, 3, 1);
 }
 .Titlefor1 {
-  color: rgb(221, 255, 0);
-  background-image: linear-gradient(rgb(113, 111, 111), rgb(35, 187, 214));
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../wood.png");
   border-radius: 15px;
   width: 150px;
   font-size: 20px;
   margin-top: 0px;
   text-align: center;
-  background-image: url("../wood.png");
-  box-shadow: 0 0 20px 5px rgb(221, 255, 0);
+  box-shadow: 0 0 20px 5px rgba(255, 173, 3, 1);
+  padding: 10px;
 }
 
 .hero {
@@ -38,98 +53,141 @@
 }
 
 .hero A {
-  color: rgb(0, 0, 0);
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   text-decoration: none;
   font-size: 40px;
   border-radius: 15px;
   width: 200px;
-  background-image: url("../wood.png");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../wood.png");
+  padding: 3px;
 }
 
 .hero a:hover {
-  color: rgb(238, 255, 0);
+  color: #fdd575;
   transition: 2s;
-  box-shadow: 0 0 20px 5px rgb(238, 255, 0);
+  box-shadow: 0 0 20px 5px rgba(255, 173, 3, 1);
 }
 
 .project-1 {
-  color: rgb(0, 0, 0);
-  background-image: url("../wood.png");
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../wood.png");
   border-radius: 15px;
   width: 500px;
   font-size: 20px;
   width: 500px;
   margin-top: 0px;
+  padding: 3px;
 }
 
 .about-me {
-  color: rgb(0, 0, 0);
-  background-image: url("../wood.png");
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../wood.png");
   border-radius: 15px;
   width: 500px;
   font-size: 20px;
   width: 500px;
   margin-top: 0px;
+  padding: 3px;
 }
 
 .about-me:hover {
-  color: rgb(255, 213, 0);
+  color: #fdd575;
   transition: 2s;
-  box-shadow: 0 0 20px 5px rgb(255, 213, 0);
+  box-shadow: 0 0 20px 5px rgba(255, 173, 3, 1);
 }
 
 .project-1:hover {
-  color: rgb(255, 213, 0);
+  color: #fdd575;
   transition: 2s;
-  box-shadow: 0 0 20px 5px rgb(255, 213, 0);
+  box-shadow: 0 0 20px 5px rgba(255, 173, 3, 1);
 }
 
 .project-2 {
-  color: rgb(0, 0, 0);
-  background-image: url("../wood.png");
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../wood.png");
   border-radius: 15px;
   width: 500px;
   font-size: 20px;
   width: 500px;
   margin-top: 0px;
+  padding: 3px;
+  padding-top: 4px;
 }
 
 .project-2:hover {
-  color: rgb(255, 213, 0);
+  color: #fdd575;
   transition: 2s;
-  box-shadow: 0 0 20px 5px rgb(255, 213, 0);
+  box-shadow: 0 0 20px 5px rgba(255, 173, 3, 1);
 }
 
 .project-3 {
-  color: rgb(0, 0, 0);
-  background-image: url("../wood.png");
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../wood.png");
   border-radius: 15px;
   width: 500px;
   font-size: 20px;
   width: 500px;
   margin-top: 0px;
+  padding: 3px;
 }
 
 .project-3:hover {
-  color: rgb(255, 213, 0);
+  color: #fdd575;
   transition: 2s;
-  box-shadow: 0 0 20px 5px rgb(255, 213, 0);
+  box-shadow: 0 0 20px 5px rgba(255, 173, 3, 1);
 }
 
 .project-4 {
-  color: rgb(0, 0, 0);
-  background-image: url("../wood.png");
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../wood.png");
   border-radius: 15px;
   width: 500px;
   font-size: 20px;
   width: 500px;
   margin-top: 0px;
+  padding: 3px;
 }
 
 .project-4:hover {
-  color: rgb(255, 213, 0);
+  color: #fdd575;
   transition: 2s;
-  box-shadow: 0 0 20px 5px rgb(255, 213, 0);
+  box-shadow: 0 0 20px 5px rgba(255, 173, 3, 1);
 }
 
 body {
@@ -142,9 +200,6 @@ body {
   cursor: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Lantern_icon.svg/32px-Lantern_icon.svg.png"),
     auto;
 }
-
-/* This code was generated with help from Github Copilot
-in response to the prompt "Make the cursor a lantern" - 12/17/25 */
 
 .Crest-Moon {
   width: 150px;
@@ -160,8 +215,6 @@ in response to the prompt "Make the cursor a lantern" - 12/17/25 */
   box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5);
 }
 
-.Crest-Moon:hover {
-}
 /* Animation for moon spinning */
 /* This code was generated with help from Github Copilot
 in response to the prompt "Make Crest-Moon spin around continuously" - 12/16/25 */
@@ -232,9 +285,9 @@ in response to the prompt "For the flash, make it so it has 😀 in the center, 
   transition: opacity 0.2s ease; /* smooth transition */
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: 200px;
-  color: white;
+  justify-content: left;
+  font-size: 50px;
+  color: rgb(238, 255, 2);
 }
 
 /* This code was generated with help from Github Copilot

@@ -29,7 +29,6 @@ if (moon) {
     }
     if (!hasChanged) {
       timeoutId = setTimeout(() => {
-        // Start countdown after 5 seconds
         let count = 5;
         const countdownEl = document.createElement("div");
         countdownEl.id = "countdown";
@@ -77,8 +76,4 @@ if (moon) {
 /* This code was generated with help from Github Copilot
 in response to the prompt "make it a ten second delay for it to change" - 12/16/25 */
 
-/* This code was generated with help from Github Copilot
-in response to the prompt "Make its so that when the moon spins for 10 seconds, it fades into this image permanently, until the refresh the page" - 12/16/25 */
-
-/* This code was generated with help from Github Copilot
-in response to the prompt "Can you make it so that after 5 seconds, their is a coutdown until the moon turns into the Blood.png, make sure it only appears after 2 seconds then dissapears after the moon changes. Agai n make it a count down from when it happens please." - 12/17/25 */
+/* The code by copilot was modified by kabir to add permanent change and red box shadows on hover after the change. - 12/17/25 */
