@@ -285,9 +285,16 @@ in response to the prompt "For the flash, make it so it has 😀 in the center, 
   transition: opacity 0.2s ease; /* smooth transition */
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   font-size: 50px;
   color: rgb(238, 255, 2);
+}
+
+/* This code was generated with help from Github Copilot
+in response to the prompt "For the flash, add the turtle img and replace the text in the flash. Use turtle.png" - 1/13/26 */
+#flash img {
+  width: 2000px;
+  height: auto;
 }
 
 /* This code was generated with help from Github Copilot
